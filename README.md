@@ -1,4 +1,10 @@
-# Getting Started with Create React App
+# Catherine Sawyer's personal portfolio page
+
+Style based on Editorial by HTML5 UP, used under the CCA 3.0 license (html5up.net/license)
+html5up.net | @ajlkn
+
+This website (and its content) is free for personal and commercial use under the CCA 3.0 license, as I believe that open-sourcing code makes the worls a better and freer place.
+
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
