@@ -1,6 +1,5 @@
 import React, { Component } from "react";
 import PropTypes from "prop-types";
-import headshot from './../assets/catherine_sawyer_profile.jpg';
 
 class Hobbies extends Component {
     constructor(props) {

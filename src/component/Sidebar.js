@@ -12,7 +12,6 @@ import ExpandMoreIcon from '@mui/icons-material/ExpandMore';
 // import { useNavigate } from "react-router-dom";
 
 
-const drawerWidth = 240;
 const mod1Title = "Module 1 - Introduction to Programming";
 const mod1List = [
   "1.1 Why software development, and why JavaScript?",
