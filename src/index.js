@@ -10,7 +10,6 @@ import Resumes from './component/Resumes';
 import Hobbies from './component/Hobbies';
 import DinnerSpinner from './component/DinnerSpinner';
 import PageNotFound from './component/PageNotFound';
-import Elements from './component/elements';
 
 import {
   HashRouter,
@@ -40,7 +39,6 @@ root.render(
           <Route path="/js/about" element={<JsAbout />} />
           <Route path="/js/syllabus" element={<JsSyllabus />} />
           
-          <Route path="/elems" element={<Elements />} />
           {/* <Route path="/js/mod1/lesson1" element={<Home />} /> */}
           {/* <Route path="/home" element={<Home />} /> */}
           {/* <Route path="/home" element={<Home />} /> */}

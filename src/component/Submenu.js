@@ -6,7 +6,7 @@ import AccordionDetails from '@mui/material/AccordionDetails';
 import Typography from '@mui/material/Typography';
 import ExpandMoreIcon from '@mui/icons-material/ExpandMore';
 
-const defaultStyles = {}
+// const defaultStyles = {}
 
 class Submenu extends Component {
     constructor(props) {
