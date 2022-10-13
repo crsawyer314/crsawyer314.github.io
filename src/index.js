@@ -9,6 +9,7 @@ import JsSyllabus from './component/JsSyllabus';
 import Resumes from './component/Resumes';
 import Hobbies from './component/Hobbies';
 import DinnerSpinner from './component/DinnerSpinner';
+import Bio from './component/Bio';
 import PageNotFound from './component/PageNotFound';
 
 import {
@@ -33,6 +34,7 @@ root.render(
           <Route path="/index.html" element={<Home />} />
           <Route exact path="/" element={<Home />} />
           <Route path="/home" element={<Home />} />
+          <Route path="/bio" element={<Bio />} />
           <Route path="/resumes" element={<Resumes />} />
           <Route path="/hobbies" element={<Hobbies />} />
           <Route path="/dinner-spinner" element={<DinnerSpinner />} />
