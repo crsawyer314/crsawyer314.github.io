@@ -12,7 +12,7 @@ import DinnerSpinner from './component/DinnerSpinner';
 import PageNotFound from './component/PageNotFound';
 
 import {
-  HashRouter,
+  BrowserRouter,
   Routes, //replaces "Switch" used till v5
   Route,
 } from "react-router-dom";
@@ -28,7 +28,7 @@ root.render(
   <React.StrictMode>
     <div className="App">
       <Sidebar />
-    <HashRouter>
+    <BrowserRouter>
         <Routes>
           <Route path="/index.html" element={<Home />} />
           <Route exact path="/" element={<Home />} />
@@ -46,7 +46,7 @@ root.render(
           {/* <Route path="/home" element={<Home />} /> */}
           <Route path="*" element={<PageNotFound />} />
         </Routes>
-      </HashRouter>
+      </BrowserRouter>
     </div>
   </React.StrictMode>
 );
