@@ -79,7 +79,7 @@ class Sidebar extends Component {
                     <Typography>Menu</Typography>
                 </header>
                 <ul>
-                    <li><Typography><NavLink to="/home">Homepage</NavLink></Typography></li>
+                    <li><Typography><a href="/home">Homepage</a></Typography></li>
                     <li>
                         <Accordion>
                         <AccordionSummary
