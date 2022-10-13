@@ -9,6 +9,8 @@ import AccordionDetails from '@mui/material/AccordionDetails';
 import Typography from '@mui/material/Typography';
 import ExpandMoreIcon from '@mui/icons-material/ExpandMore';
 
+import {NavLink} from "react-router-dom";
+
 // import { useNavigate } from "react-router-dom";
 
 
@@ -77,7 +79,7 @@ class Sidebar extends Component {
                     <Typography>Menu</Typography>
                 </header>
                 <ul>
-                    <li><Typography><a href="/home">Homepage</a></Typography></li>
+                    <li><Typography><NavLink to="/home">Homepage</NavLink></Typography></li>
                     <li>
                         <Accordion>
                         <AccordionSummary
@@ -90,6 +92,7 @@ class Sidebar extends Component {
                         <AccordionDetails>
                         <ul>
                             <li><Typography><a href="/js/about">About</a></Typography></li>
+                            {/* set state to stay open when clicked/change route */}
                             <li><Typography><a href="/js/syllabus">Syllabus</a></Typography></li>
                             <li><Submenu title={mod1Title} itemList={mod1List}/></li>
                             <li><Submenu title={mod2Title} itemList={mod2List}/></li>

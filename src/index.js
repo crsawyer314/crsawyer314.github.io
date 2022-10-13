@@ -31,7 +31,7 @@ root.render(
     <HashRouter>
         <Routes>
           <Route path="/index.html" element={<Home />} />
-          <Route path="/" element={<Home />} />
+          <Route exact path="/" element={<Home />} />
           <Route path="/home" element={<Home />} />
           <Route path="/resumes" element={<Resumes />} />
           <Route path="/hobbies" element={<Hobbies />} />
