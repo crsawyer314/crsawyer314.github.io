@@ -17,7 +17,7 @@ class Submenu extends Component {
 
     render() {
        
-    const items = this.props.itemList.map(i => <li><Typography>{i}</Typography></li>);
+    const items = this.props.itemList.map(i => <li key={i.title}><Typography><a href={i.link}>{i.title}</a></Typography></li>);
         return (
             <Accordion>
                 <AccordionSummary

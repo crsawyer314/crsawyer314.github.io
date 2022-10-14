@@ -16,46 +16,77 @@ import ExpandMoreIcon from '@mui/icons-material/ExpandMore';
 
 const mod1Title = "Module 1 - Introduction to Programming";
 const mod1List = [
-  "1.1 Why software development, and why JavaScript?",
-  "1.2 How to set up your computer for JavaScript development",
-  "1.3 HTML and CSS Basics",
-  "1.4 HTML and CSS Basics, cont",
-  "1.5 Intro to Interactivity",
-  "1.6 Variables and QuerySelector",
-  "1.7 Arrays",
-  "1.8 For loops",
-  "1.9 Objects",
-  "1.10 Forms and Buttons",
-  "Assessment 1"
+  {title: "1.1 Why software development, and why JavaScript?",
+   link: "/js/1.1"},
+   {title: "1.2 How to set up your computer for JavaScript development",
+   link: "/js/1.2"},
+   {title: "1.3 HTML and CSS Basics",
+   link: "/js/1.3"},
+   {title: "1.4 HTML and CSS Basics, cont",
+   link: "/js/1.4"},
+   {title: "1.5 Intro to Interactivity",
+   link: "/js/1.5"},
+   {title: "1.6 Variables and QuerySelector",
+   link: "/js/1.6"},
+   {title: "1.7 Arrays",
+   link: "/js/1.7"},
+   {title: "1.8 For loops",
+   link: "/js/1.8"},
+   {title: "1.9 Objects",
+   link: "/js/1.9"},
+   {title: "1.10 Forms and Buttons",
+   link: "/js/1.10"},
+   {title: "Assessment 1",
+   link: "/js/1-assessment"}
 ];
 const mod2Title = "Module 2 - Basic Programming";
 const mod2List = [
-  "2.1 Variables and data types",
-  "2.2 Mathematical and logical operators",
-  "2.3 Booleans and Conditionals (if/else statements)",
-  "2.4 Switch statements",
-  "2.5 While Loops",
-  "2.6 For Loops",
-  "Assessment 2"
+    {title: "2.1 Variables and data types",
+   link: "/js/2.1"},
+   {title: "2.2 Mathematical and logical operators",
+   link: "/js/2.2"},
+   {title: "2.3 Booleans and Conditionals (if/else statements)",
+   link: "/js/2.3"},
+   {title: "2.4 Switch statements",
+   link: "/js/2.4"},
+   {title: "2.5 While Loops",
+   link: "/js/2.5"},
+   {title: "2.6 For Loops",
+   link: "/js/2.6"},
+   {title: "Assessment 2",
+   link: "/js/2-assessment"}
 ];
 const mod3Title = "Module 3 - Intermediate Programming";
 const mod3List = [
-  "3.1 Functions",
-  "3.2 Advanced functions",
-  "3.3 OOP",
-  "3.4 Classes, cont",
-  "3.5 Functional programming",
-  "3.6 OOP vs Functional Programming",
-  "Assessment 3"
+    {title: "3.1 Functions",
+   link: "/js/3.1"},
+   {title: "3.2 Advanced functions",
+   link: "/js/3.2"},
+   {title: "3.3 OOP",
+   link: "/js/3.3"},
+   {title: "3.4 Classes, cont",
+   link: "/js/3.4"},
+   {title: "3.5 Functional programming",
+   link: "/js/3.5"},
+   {title: "3.6 OOP vs Functional Programming",
+   link: "/js/3.6"},
+   {title: "Assessment 3",
+   link: "/js/3-assessment"}
 ];
 const mod4Title = "Module 4 - Advanced Programming";
 const mod4List = [
-  "4.1 Recursion",
-  "4.2 Error handling",
-  "4.3 Promises",
-  "4.4 Promises, cont",
-  "4.5 Async/Await",
-  "Assessment 4"
+    {title: "4.1 Recursion",
+   link: "/js/4.1"},
+   {title: "4.2 Error handling",
+   link: "/js/4.2"},
+   {title: "4.3 Promises",
+   link: "/js/4.3"},
+   {title: "4.4 Promises, cont",
+   link: "/js/4.4"},
+   {title: "4.5 Async/Await",
+   link: "/js/4.5"},
+   {title: "Assessment 4",
+   link: "/js/4-assessment"}
 ];
 
 // const navigate = useNavigate();
