@@ -1,16 +1,14 @@
-import React from 'react';
-import ReactDOM from 'react-dom/client';
-import './styles/index.css';
+import React, { Component } from "react";
 
-import Sidebar from './component/Sidebar';
-import Home from './component/Home';
-import JsAbout from './component/JsAbout';
-import JsSyllabus from './component/JsSyllabus';
-import Resumes from './component/Resumes';
-import Hobbies from './component/Hobbies';
-import DinnerSpinner from './component/DinnerSpinner';
-import Bio from './component/Bio';
-import PageNotFound from './component/PageNotFound';
+import Sidebar from './Sidebar';
+import Home from './Home';
+import JsAbout from './JsAbout';
+import JsSyllabus from './JsSyllabus';
+import Resumes from './Resumes';
+import Hobbies from './Hobbies';
+import DinnerSpinner from './DinnerSpinner';
+import Bio from './Bio';
+import PageNotFound from './PageNotFound';
 
 import {
   BrowserRouter,
@@ -18,9 +16,6 @@ import {
   Route,
 } from "react-router-dom";
 
-import './styles/App.css';
-
-import reportWebVitals from './reportWebVitals';
 
 
 
