@@ -8,6 +8,7 @@ import Resumes from './Resumes';
 import Hobbies from './Hobbies';
 import DinnerSpinner from './DinnerSpinner';
 import Bio from './Bio';
+import Js1 from './Js1';
 import PageNotFound from './PageNotFound';
 
 import {
@@ -36,6 +37,7 @@ class App extends Component {
             <Route exact path="/" element={<Home />} />
             <Route path="/home" element={<Home />} />
             <Route path="/bio" element={<Bio />} />
+            <Route path="/js/1.1" element={<Js1 />} />
             <Route path="/resumes" element={<Resumes />} />
             <Route path="/hobbies" element={<Hobbies />} />
             <Route path="/dinner-spinner" element={<DinnerSpinner />} />

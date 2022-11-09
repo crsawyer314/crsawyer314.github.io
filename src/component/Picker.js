@@ -1,6 +1,5 @@
 import React, { Component } from "react";
 import PropTypes from "prop-types";
-import DinnerSpinner from "./DinnerSpinner";
 
 const dinners = {
     "vindaloo curry": ['rice','indian','curry'],
