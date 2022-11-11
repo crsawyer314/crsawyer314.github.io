@@ -52,7 +52,7 @@ class Js1 extends Component {
         )
       }
     }}
-  />/>
+  />
 
 								</section>
 
