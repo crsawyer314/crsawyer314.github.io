@@ -41,18 +41,18 @@ class App extends Component {
             <Route exact path="/" element={<Home />} />
             <Route path="/home" element={<Home />} />
             <Route path="/bio" element={<Bio />} />
-            <Route path="/js/1.1" element={<Js1 />} />
-            <Route path="/js/1.2" element={<Js2 />} />
-            <Route path="/js/1.3" element={<Js3 />} />
-            <Route path="/js/1.4" element={<Js4 />} />
-            <Route path="/js/1.5" element={<Js5 />} />
+            <Route path="/js_1.1" element={<Js1 />} />
+            <Route path="/js_1.2" element={<Js2 />} />
+            <Route path="/js_1.3" element={<Js3 />} />
+            <Route path="/js_1.4" element={<Js4 />} />
+            <Route path="/js_1.5" element={<Js5 />} />
             <Route path="/resumes" element={<Resumes />} />
             <Route path="/hobbies" element={<Hobbies />} />
             <Route path="/dinner-spinner" element={<DinnerSpinner />} />
-            <Route path="/js/about" element={<JsAbout />} />
-            <Route path="/js/syllabus" element={<JsSyllabus />} />
+            <Route path="/js_about" element={<JsAbout />} />
+            <Route path="/js_syllabus" element={<JsSyllabus />} />
             
-            {/* <Route path="/js/mod1/lesson1" element={<Home />} /> */}
+            {/* <Route path="/js_mod1/lesson1" element={<Home />} /> */}
             {/* <Route path="/home" element={<Home />} /> */}
             {/* <Route path="/home" element={<Home />} /> */}
             {/* <Route path="/home" element={<Home />} /> */}
