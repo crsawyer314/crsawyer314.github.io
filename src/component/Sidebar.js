@@ -12,9 +12,6 @@ import ExpandMoreIcon from '@mui/icons-material/ExpandMore';
 // import {NavLink} from "react-router-dom";
 
 // import { useNavigate } from "react-router-dom";
-import js1md from './../assets/js1-1.md';
-import js2md from './../assets/js1-2.md';
-import js3md from './../assets/js1-3.md';
 
 const mod1Title = "Module 1 - Introduction to Programming";
 const mod1List = [
