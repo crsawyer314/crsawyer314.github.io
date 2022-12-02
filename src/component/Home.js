@@ -32,7 +32,7 @@ class Home extends Component {
                                                 <p>Technical educator, people manager, software developer, and creator</p>
                                             </header>
                                             <p>My passion is increasing diversity through code.</p>
-                                            <p>Whether it is grade-school students wanting to learn a new hobby or adults looking to break into tech, there is a space for everyone to learn to code. I host some personal projects on this website, including my <a href="/js/about">JavaScript for Adult Beginners</a>, a course targeted at adults looking to upskill and learn code.</p>
+                                            <p>Whether it is grade-school students wanting to learn a new hobby or adults looking to break into tech, there is a space for everyone to learn to code. I host some personal projects on this website, including my <a href="/js_about">JavaScript for Adult Beginners</a>, a course targeted at adults looking to upskill and learn code.</p>
                                             <p>This course is designed for those who have no prior knowledge about code or programming whatsoever, and will guide you not only through your learning journey, but also through the necessary steps to create a meaningful project for your personal portfolio.</p>
                                             <ul className="actions">
                                                 <li><a href="/bio" className="button big">Learn More</a></li>
