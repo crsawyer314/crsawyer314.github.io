@@ -9,11 +9,12 @@ import Hobbies from './Hobbies';
 import DinnerSpinner from './DinnerSpinner';
 import Bio from './Bio';
 import Js1 from './Js1';
-import Js2 from './Js2';
-import Js3 from './Js3';
-import Js4 from './Js4';
-import Js5 from './Js5';
 import PageNotFound from './PageNotFound';
+import Js1Markdown from './../assets/js1-1.md';
+import Js2Markdown from './../assets/js1-2.md';
+import Js3Markdown from './../assets/js1-3.md';
+import Js4Markdown from './../assets/js1-4.md';
+import Js5Markdown from './../assets/js1-5.md';
 
 import {
   BrowserRouter,
@@ -41,11 +42,11 @@ class App extends Component {
             <Route exact path="/" element={<Home />} />
             <Route path="/home" element={<Home />} />
             <Route path="/bio" element={<Bio />} />
-            <Route path="/js_1.1" element={<Js1 />} />
-            <Route path="/js_1.2" element={<Js2 />} />
-            <Route path="/js_1.3" element={<Js3 />} />
-            <Route path="/js_1.4" element={<Js4 />} />
-            <Route path="/js_1.5" element={<Js5 />} />
+            <Route path="/js_1.1" element={<Js1 mdFile={Js1Markdown} />} />
+            <Route path="/js_1.2" element={<Js1 mdFile={Js2Markdown} />} />
+            <Route path="/js_1.3" element={<Js1 mdFile={Js3Markdown} />} />
+            <Route path="/js_1.4" element={<Js1 mdFile={Js4Markdown} />} />
+            <Route path="/js_1.5" element={<Js1 mdFile={Js5Markdown} />} />
             <Route path="/resumes" element={<Resumes />} />
             <Route path="/hobbies" element={<Hobbies />} />
             <Route path="/dinner-spinner" element={<DinnerSpinner />} />

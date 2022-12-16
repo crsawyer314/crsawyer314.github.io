@@ -1,9 +1,8 @@
 import React, { Component } from "react";
 import ReactMarkdown from 'react-markdown';
 import {Prism as SyntaxHighlighter} from 'react-syntax-highlighter'
-// import {dark} from 'react-syntax-highlighter/dist/esm/styles/prism'
-import Js1Markdown from './../assets/js1-1.md';
 import remarkGfm from 'remark-gfm';
+import PropTypes from 'prop-types';
 
 class Js1 extends Component {
     constructor(props) {
@@ -13,7 +12,7 @@ class Js1 extends Component {
     }
     componentWillMount() {
         // Get the contents from the Markdown file and put them in the React state, so we can reference it in render() below.
-        fetch(Js1Markdown).then(res => res.text()).then(text => this.setState({ markdown: text }));
+        fetch(this.props.mdFile).then(res => res.text()).then(text => this.setState({ markdown: text }));
       }
 
     render() {
@@ -62,11 +61,13 @@ class Js1 extends Component {
         }
 }
 Js1.propTypes = {
-   
+  markdown: PropTypes.string.isRequired,
 }
 
 Js1.defaultProps = {
-   
+  markdown: `# My Markdown File
+
+  This is an example markdown file.`,
 }
 
 export default Js1;
