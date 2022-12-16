@@ -58,7 +58,7 @@ class Bio extends Component {
 									<hr class="major" />
 
 									<h2>Current Work</h2>
-									<p>I am currently focusing on obtaining my Masters of Science degree in Computer Science from Georgia Institute of Technology, as well as expanding the course offerings on this website. I am working with a few different clients in freelance/contrator positions as the arise. I am also pursuing my hobbies of quilting, pyrography (wood burning), and others (see more on my hobbies page).</p>
+									<p>I am currently focusing on obtaining my Masters of Science degree in Computer Science from Georgia Institute of Technology, as well as expanding the course offerings on this website. I am working with a few different clients in freelance/contrator positions as they arise. I am also pursuing my hobbies of quilting, pyrography (wood burning), and others (see more on my hobbies page).</p>
 
 								</section>
 
