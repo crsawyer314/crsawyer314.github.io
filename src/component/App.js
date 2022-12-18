@@ -15,6 +15,11 @@ import Js2Markdown from './../assets/js1-2.md';
 import Js3Markdown from './../assets/js1-3.md';
 import Js4Markdown from './../assets/js1-4.md';
 import Js5Markdown from './../assets/js1-5.md';
+import Js6Markdown from './../assets/js1-6.md';
+import Js7Markdown from './../assets/js1-7.md';
+import Js8Markdown from './../assets/js1-8.md';
+import Js9Markdown from './../assets/js1-9.md';
+import Js10Markdown from './../assets/js1-10.md';
 
 import {
   BrowserRouter,
@@ -47,6 +52,11 @@ class App extends Component {
             <Route path="/js_1.3" element={<Js1 mdFile={Js3Markdown} />} />
             <Route path="/js_1.4" element={<Js1 mdFile={Js4Markdown} />} />
             <Route path="/js_1.5" element={<Js1 mdFile={Js5Markdown} />} />
+            <Route path="/js_1.6" element={<Js1 mdFile={Js6Markdown} />} />
+            <Route path="/js_1.7" element={<Js1 mdFile={Js7Markdown} />} />
+            <Route path="/js_1.8" element={<Js1 mdFile={Js8Markdown} />} />
+            <Route path="/js_1.9" element={<Js1 mdFile={Js9Markdown} />} />
+            <Route path="/js_1.10" element={<Js1 mdFile={Js10Markdown} />} />
             <Route path="/resumes" element={<Resumes />} />
             <Route path="/hobbies" element={<Hobbies />} />
             <Route path="/dinner-spinner" element={<DinnerSpinner />} />
