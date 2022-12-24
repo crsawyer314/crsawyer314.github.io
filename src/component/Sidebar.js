@@ -94,19 +94,27 @@ class Sidebar extends Component {
     constructor(props) {
       super(props);
   
-      this.state = {}
+      this.state = {
+        isActive: 'active'
+      }
+      this.handleClick = this.handleClick.bind(this);
     }
 
+    handleClick(){
+        this.setState({isActive: ((this.state.isActive==='active') ?'inactive':'active')});
+    }
     render() {
         
         return (
-            <div id="sidebar">
+            <div id="sidebar" className={this.state.isActive}>
+            <a href="#" class="toggle" onClick={this.handleClick}>Toggle</a>
     <div className="inner">
 
         {/* <!-- Menu --> */}
             <nav id="menu">
                 <header className="major">
                     <Typography>Menu</Typography>
+                    {/* <br></br> */}
                 </header>
                 <ul>
                     <li><Typography><a href="/home">Homepage</a></Typography></li>
