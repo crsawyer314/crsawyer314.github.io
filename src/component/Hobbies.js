@@ -13,7 +13,7 @@ import pyro11 from './../assets/hobbies/pyro11.jpg';
 import pyro12 from './../assets/hobbies/pyro12.jpg';
 import pyro13 from './../assets/hobbies/pyro13.jpg';
 import pyro14 from './../assets/hobbies/pyro14.jpg';
-import pyro15 from './../assets/hobbies/pyro15.jpg';
+// import pyro15 from './../assets/hobbies/pyro15.jpg';
 import quilt1 from './../assets/hobbies/quilt1.jpg';
 import quilt2 from './../assets/hobbies/quilt2.jpg';
 import quilt3 from './../assets/hobbies/quilt3.jpg';
