@@ -12,20 +12,20 @@ class JsSyllabus extends Component {
         return (
             <div>
             <div id="main">
-						<div class="inner">
+						<div className="inner">
 
 							{/* <!-- Header --> */}
 							<header id="header">
-								<a href="index.html" class="logo"><strong>Catherine Sawyer</strong></a>
-								<ul class="icons">
-									<li><a href="https://www.linkedin.com/in/catherine-sawyer/" class="icon brands fa-linkedin"><span class="label">LinkedIn</span></a></li>
-									<li><a href="https://github.com/crsawyer314" class="icon brands fa-github"><span class="label">GitHub</span></a></li>
+								<a href="index.html" className="logo"><strong>Catherine Sawyer</strong></a>
+								<ul className="icons">
+									<li><a href="https://www.linkedin.com/in/catherine-sawyer/" className="icon brands fa-linkedin"><span className="label">LinkedIn</span></a></li>
+									<li><a href="https://github.com/crsawyer314" className="icon brands fa-github"><span className="label">GitHub</span></a></li>
 								</ul>
 							</header>
 
 							{/* <!-- Content --> */}
 								<section>
-									<header class="main">
+									<header className="main">
 										<h1>JavaScript for Beginners - Syllabus</h1>
 									</header>
 
@@ -33,27 +33,27 @@ class JsSyllabus extends Component {
 
 									<p>The course will be broken into the following modules:</p>
 
-									<hr class="major" />
+									<hr className="major" />
 
 									<p><strong>Module 1</strong>: Introduction, tools setup, basic web design, and an overview of JavaScript - Get started, get used to the course structure, and set up your computer to start programming. Create a website that utilizes eventListeners buttons, and basic forms to incorporate interactivity.</p>
 									<p>Example project: Create an informational website with a trivia game.</p>
 
-									<hr class="major" />
+									<hr className="major" />
 
 									<p><strong>Module 2</strong>: Basic Programming - Dig into some programming basics, including variables and data types, booleans and conditionals, operators and advanced loops.</p>
 									<p>Example project: Enhance your website by moving the trivia game to its own tab, and adding another tab with a todo list functionality.</p>
 
-									<hr class="major" />
+									<hr className="major" />
 
 									<p><strong>Module 3</strong>: Intermediate Programming - Learn about functions and classes, Object Oriented Programming (OOP) and Functional Programming paradigms.</p>
 									<p>Example project: Choose OOP or Functional programming to enhance the functionality of your trivia game or todo list.</p>
 
-									<hr class="major" />
+									<hr className="major" />
 
 									<p><strong>Module 4</strong>: Advanced Programming Concepts - Dive into some further programming concepts, including recursion, error handling, and asynchrony in JavaScript.</p>
 									<p>Example project: Add another tab to your webpage with a web-based game such as breakout, a maze solver, or a click-based RPG game.</p>
 
-									<hr class="major" />
+									<hr className="major" />
 									
 									<p>Each module will be broken into several lessons. Each lesson will be accompanied by several practice problems to assess your understanding, as well as some <em>Acceptance Criteria</em>, which will help you to know what is expected of your project at each point in the course.</p> There will be a longer assessment at the end of each module to help assess your understanding. All assessments may be retaken as many times as necessary to achieve the desired result.
 								</section>

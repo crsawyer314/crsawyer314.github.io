@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import PropTypes from "prop-types";
+// import PropTypes from "prop-types";
 import Submenu from './Submenu';
 import "./../styles/main.css"
 
@@ -147,8 +147,7 @@ class Sidebar extends Component {
     }
 }
 Sidebar.propTypes = {
-    children: PropTypes.node.isRequired,
-    
+    // children: PropTypes.node.isRequired,
 }
 
 Sidebar.defaultProps = {

@@ -23,6 +23,7 @@ class PageNotFound extends Component {
                     <h2>
                         404 Page Not Found
                     </h2>
+                    <h2>If you are on this page, it may be under construction.</h2>
                 </div>
             
             </div>);

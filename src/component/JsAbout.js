@@ -12,24 +12,24 @@ class JsAbout extends Component {
         return (
             <div>
             <div id="main">
-						<div class="inner">
+						<div className="inner">
 
 							{/* <!-- Header --> */}
 							<header id="header">
-								<a href="index.html" class="logo"><strong>Catherine Sawyer</strong></a>
-								<ul class="icons">
-									<li><a href="https://www.linkedin.com/in/catherine-sawyer/" class="icon brands fa-linkedin"><span class="label">LinkedIn</span></a></li>
-									<li><a href="https://github.com/crsawyer314" class="icon brands fa-github"><span class="label">GitHub</span></a></li>
+								<a href="index.html" className="logo"><strong>Catherine Sawyer</strong></a>
+								<ul className="icons">
+									<li><a href="https://www.linkedin.com/in/catherine-sawyer/" className="icon brands fa-linkedin"><span className="label">LinkedIn</span></a></li>
+									<li><a href="https://github.com/crsawyer314" className="icon brands fa-github"><span className="label">GitHub</span></a></li>
 								</ul>
 							</header>
 
 							{/* <!-- Content --> */}
 								<section>
-									<header class="main">
+									<header className="main">
 										<h1>JavaScript for Beginners - About</h1>
 									</header>
 
-									<span class="image main"><img src="images/pic11.jpg" alt="" /></span>
+									<span className="image main"><img src="images/pic11.jpg" alt="" /></span>
 
 									<p>There are a lot of resources that exist to help you learn programming, so why should you use this one?</p>
 									<p>First: All learning resources on this page are free, and always will be. I believe that anyone can code, and everyone who wants to do so should have the resources available to them to make that a reality.</p>

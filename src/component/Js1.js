@@ -20,14 +20,14 @@ class Js1 extends Component {
         return (
             <div>
             <div id="main">
-						<div class="inner">
+						<div className="inner">
 
 							{/* <!-- Header --> */}
 							<header id="header">
-								<a href="index.html" class="logo"><strong>Catherine Sawyer</strong></a>
-								<ul class="icons">
-									<li><a href="https://www.linkedin.com/in/catherine-sawyer/" class="icon brands fa-linkedin"><span class="label">LinkedIn</span></a></li>
-									<li><a href="https://github.com/crsawyer314" class="icon brands fa-github"><span class="label">GitHub</span></a></li>
+								<a href="index.html" className="logo"><strong>Catherine Sawyer</strong></a>
+								<ul className="icons">
+									<li><a href="https://www.linkedin.com/in/catherine-sawyer/" className="icon brands fa-linkedin"><span className="label">LinkedIn</span></a></li>
+									<li><a href="https://github.com/crsawyer314" className="icon brands fa-github"><span className="label">GitHub</span></a></li>
 								</ul>
 							</header>
 

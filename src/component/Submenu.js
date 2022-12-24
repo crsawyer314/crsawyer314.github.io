@@ -37,7 +37,7 @@ class Submenu extends Component {
     }
 }
 Submenu.propTypes = {
-    children: PropTypes.node.isRequired,
+    // children: PropTypes.node.isRequired,
     
     styles: PropTypes.shape({
         root: PropTypes.object,
