@@ -54,6 +54,42 @@ class Generic extends Component {
 									<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis dapibus rutrum facilisis. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Etiam tristique libero eu nibh porttitor fermentum. Nullam venenatis erat id vehicula viverra. Nunc ultrices eros ut ultricies condimentum. Mauris risus lacus, blandit sit amet venenatis non, bibendum vitae dolor. Nunc lorem mauris, fringilla in aliquam at, euismod in lectus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. In non lorem sit amet elit placerat maximus. Pellentesque aliquam maximus risus, vel sed vehicula.</p>
 
 								</section>
+								{/* <!-- Section --> */}
+								<section>
+                                        <header className="major">
+                                            <h2>Erat lacinia</h2>
+                                        </header>
+                                        <div className="features">
+                                            <article>
+                                                <span className="icon fa-gem"></span>
+                                                <div className="content">
+                                                    <h3>Portitor ullamcorper</h3>
+                                                    <p>Aenean ornare velit lacus, ac varius enim lorem ullamcorper dolore. Proin aliquam facilisis ante interdum. Sed nulla amet lorem feugiat tempus aliquam.</p>
+                                                </div>
+                                            </article>
+                                            <article>
+                                                <span className="icon solid fa-paper-plane"></span>
+                                                <div className="content">
+                                                    <h3>Sapien veroeros</h3>
+                                                    <p>Aenean ornare velit lacus, ac varius enim lorem ullamcorper dolore. Proin aliquam facilisis ante interdum. Sed nulla amet lorem feugiat tempus aliquam.</p>
+                                                </div>
+                                            </article>
+                                            <article>
+                                                <span className="icon solid fa-rocket"></span>
+                                                <div className="content">
+                                                    <h3>Quam lorem ipsum</h3>
+                                                    <p>Aenean ornare velit lacus, ac varius enim lorem ullamcorper dolore. Proin aliquam facilisis ante interdum. Sed nulla amet lorem feugiat tempus aliquam.</p>
+                                                </div>
+                                            </article>
+                                            <article>
+                                                <span className="icon solid fa-signal"></span>
+                                                <div className="content">
+                                                    <h3>Sed magna finibus</h3>
+                                                    <p>Aenean ornare velit lacus, ac varius enim lorem ullamcorper dolore. Proin aliquam facilisis ante interdum. Sed nulla amet lorem feugiat tempus aliquam.</p>
+                                                </div>
+                                            </article>
+                                        </div>
+                                    </section>
 
 						</div>
 					</div>

@@ -46,35 +46,35 @@ class Home extends Component {
                                 {/* <!-- Section --> */}
                                     <section>
                                         <header className="major">
-                                            <h2>Erat lacinia</h2>
+                                            <h2>Pages</h2>
                                         </header>
                                         <div className="features">
                                             <article>
-                                                <span className="icon fa-gem"></span>
+                                                <span className="icon fa-keyboard"></span>
                                                 <div className="content">
-                                                    <h3>Portitor ullamcorper</h3>
-                                                    <p>Aenean ornare velit lacus, ac varius enim lorem ullamcorper dolore. Proin aliquam facilisis ante interdum. Sed nulla amet lorem feugiat tempus aliquam.</p>
+                                                    <h3><a href="/js_about">JavaScript for Beginners</a></h3>
+                                                    <p>A project-based JavaScript course designed for the adult novice. This link will bring you to the About page for the course.</p>
                                                 </div>
                                             </article>
                                             <article>
-                                                <span className="icon solid fa-paper-plane"></span>
+                                                <span className="icon solid fa-file"></span>
                                                 <div className="content">
-                                                    <h3>Sapien veroeros</h3>
-                                                    <p>Aenean ornare velit lacus, ac varius enim lorem ullamcorper dolore. Proin aliquam facilisis ante interdum. Sed nulla amet lorem feugiat tempus aliquam.</p>
+                                                    <h3><a href="/resumes">Resumes and Interviewing</a></h3>
+                                                    <p>This page is still under construction. When completed, it will provide templates and guides for how to successfully create a technical software resume and succeed at interviewing.</p>
                                                 </div>
                                             </article>
                                             <article>
-                                                <span className="icon solid fa-rocket"></span>
+                                                <span className="icon solid fa-star"></span>
                                                 <div className="content">
-                                                    <h3>Quam lorem ipsum</h3>
-                                                    <p>Aenean ornare velit lacus, ac varius enim lorem ullamcorper dolore. Proin aliquam facilisis ante interdum. Sed nulla amet lorem feugiat tempus aliquam.</p>
+                                                    <h3><a href="/hobbies">Hobbies</a></h3>
+                                                    <p>A place for me to display pictures of some of my favorite projects, including pyrography and quilting.</p>
                                                 </div>
                                             </article>
                                             <article>
-                                                <span className="icon solid fa-signal"></span>
+                                                <span className="icon solid fa-utensils"></span>
                                                 <div className="content">
-                                                    <h3>Sed magna finibus</h3>
-                                                    <p>Aenean ornare velit lacus, ac varius enim lorem ullamcorper dolore. Proin aliquam facilisis ante interdum. Sed nulla amet lorem feugiat tempus aliquam.</p>
+                                                    <h3><a href="/dinner-spinner">Dinner Spinner</a></h3>
+                                                    <p>Not sure what to cook tonight? Try out this nifty page to give you some good ideas.</p>
                                                 </div>
                                             </article>
                                         </div>

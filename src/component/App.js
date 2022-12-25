@@ -9,6 +9,7 @@ import Hobbies from './Hobbies';
 import DinnerSpinner from './DinnerSpinner';
 import Bio from './Bio';
 import Js1 from './Js1';
+import JsAssessment from './JsAssessment';
 import PageNotFound from './PageNotFound';
 import Js1Markdown from './../assets/js1-1.md';
 import Js2Markdown from './../assets/js1-2.md';
@@ -20,6 +21,7 @@ import Js7Markdown from './../assets/js1-7.md';
 import Js8Markdown from './../assets/js1-8.md';
 import Js9Markdown from './../assets/js1-9.md';
 import Js10Markdown from './../assets/js1-10.md';
+import Js1Assessment from './../assets/js1-assessment.md';
 
 import {
   BrowserRouter,
@@ -47,16 +49,17 @@ class App extends Component {
             <Route exact path="/" element={<Home />} />
             <Route path="/home" element={<Home />} />
             <Route path="/bio" element={<Bio />} />
-            <Route path="/js_1.1" element={<Js1 mdFile={Js1Markdown} />} />
-            <Route path="/js_1.2" element={<Js1 mdFile={Js2Markdown} />} />
-            <Route path="/js_1.3" element={<Js1 mdFile={Js3Markdown} />} />
-            <Route path="/js_1.4" element={<Js1 mdFile={Js4Markdown} />} />
-            <Route path="/js_1.5" element={<Js1 mdFile={Js5Markdown} />} />
-            <Route path="/js_1.6" element={<Js1 mdFile={Js6Markdown} />} />
-            <Route path="/js_1.7" element={<Js1 mdFile={Js7Markdown} />} />
-            <Route path="/js_1.8" element={<Js1 mdFile={Js8Markdown} />} />
-            <Route path="/js_1.9" element={<Js1 mdFile={Js9Markdown} />} />
-            <Route path="/js_1.10" element={<Js1 mdFile={Js10Markdown} />} />
+            <Route path="/js_1.1" element={<Js1 mdFile={Js1Markdown} prev="/js_syllabus" next="/js_1.2" prevTitle="Syllabus" nextTitle="Lesson 1.2" />} />
+            <Route path="/js_1.2" element={<Js1 mdFile={Js2Markdown} prev="/js_1.1" next="/js_1.3" prevTitle="Lesson 1.1" nextTitle="Lesson 1.3" />} />
+            <Route path="/js_1.3" element={<Js1 mdFile={Js3Markdown} prev="/js_1.2" next="/js_1.4" prevTitle="Lesson 1.2" nextTitle="Lesson 1.4" />} />
+            <Route path="/js_1.4" element={<Js1 mdFile={Js4Markdown} prev="/js_1.3" next="/js_1.5" prevTitle="Lesson 1.3" nextTitle="Lesson 1.5" />} />
+            <Route path="/js_1.5" element={<Js1 mdFile={Js5Markdown} prev="/js_1.4" next="/js_1.6" prevTitle="Lesson 1.4" nextTitle="Lesson 1.6" />} />
+            <Route path="/js_1.6" element={<Js1 mdFile={Js6Markdown} prev="/js_1.5" next="/js_1.7" prevTitle="Lesson 1.5" nextTitle="Lesson 1.7" />} />
+            <Route path="/js_1.7" element={<Js1 mdFile={Js7Markdown} prev="/js_1.6" next="/js_1.8" prevTitle="Lesson 1.6" nextTitle="Lesson 1.8" />} />
+            <Route path="/js_1.8" element={<Js1 mdFile={Js8Markdown} prev="/js_1.7" next="/js_1.9" prevTitle="Lesson 1.7" nextTitle="Lesson 1.9" />} />
+            <Route path="/js_1.9" element={<Js1 mdFile={Js9Markdown} prev="/js_1.8" next="/js_1.10" prevTitle="Lesson 1.8" nextTitle="Lesson 1.10" />} />
+            <Route path="/js_1.10" element={<Js1 mdFile={Js10Markdown} prev="/js_1.9" next="/js_1_assessment" prevTitle="Lesson 1.9" nextTitle="Module 1 Assessment" />} />
+            <Route path="/js_1_assessment" element={<JsAssessment mdFile={Js1Assessment} prev="/js_1.10" prevTitle="Lesson 1.10" />} />
             <Route path="/resumes" element={<Resumes />} />
             <Route path="/hobbies" element={<Hobbies />} />
             <Route path="/dinner-spinner" element={<DinnerSpinner />} />

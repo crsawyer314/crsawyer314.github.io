@@ -26,6 +26,8 @@ class JsSyllabus extends Component {
 							{/* <!-- Content --> */}
 								<section>
 									<header className="main">
+										<button><a href="/js_about">Prev - About</a></button>
+										<button><a href="/js_1.1">Next - Lesson 1.1</a></button>
 										<h1>JavaScript for Beginners - Syllabus</h1>
 									</header>
 
@@ -56,6 +58,10 @@ class JsSyllabus extends Component {
 									<hr className="major" />
 									
 									<p>Each module will be broken into several lessons. Each lesson will be accompanied by several practice problems to assess your understanding, as well as some <em>Acceptance Criteria</em>, which will help you to know what is expected of your project at each point in the course.</p> There will be a longer assessment at the end of each module to help assess your understanding. All assessments may be retaken as many times as necessary to achieve the desired result.
+								
+									<br></br>
+									<button><a href="/js_about">Prev - About</a></button>
+									<button><a href="/js_1.1">Next - Lesson 1.1</a></button>
 								</section>
 
 						</div>

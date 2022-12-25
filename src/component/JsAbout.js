@@ -26,6 +26,7 @@ class JsAbout extends Component {
 							{/* <!-- Content --> */}
 								<section>
 									<header className="main">
+										<button><a href="/js_syllabus">Next - Syllabus</a></button>
 										<h1>JavaScript for Beginners - About</h1>
 									</header>
 
@@ -36,7 +37,9 @@ class JsAbout extends Component {
 									<p>Second: The JavaScript for Beginners course is a complete course, including lessons, practice problems, and a guided project. I follow current best-practice in educational and instructional design research to help you learn. We utilize a method called Project-Based Learning, in which you work on a project that you are interested in (or you can pick from one of our example projects), and we give you the instruction you need, as you need it, to make that project a reality. In this way, you have an interesting project in your portfolio that you can both show to future employers as proof of your skills and also use to talk about your development process.</p>
 									<p>Third: We don't just teach you JavaScript. Throughout the course, we also teach you important development/programming skills, like how to navigate and understand technical/programming language documentation, how to search and understand results for programming questions, how to use GitHub, and more.</p>
 									<p>And lastly, this course is a great jumping-off point for any of the other courses hosted on this website, which we encourage you to peruse as they pique your interest!</p>
-
+									
+									<br></br>
+									<button><a href="/js_syllabus">Next - Syllabus</a></button>
 								</section>
 
 						</div>

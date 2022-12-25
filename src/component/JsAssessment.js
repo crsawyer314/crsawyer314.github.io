@@ -4,7 +4,7 @@ import {Prism as SyntaxHighlighter} from 'react-syntax-highlighter'
 import remarkGfm from 'remark-gfm';
 import PropTypes from 'prop-types';
 
-class Js1 extends Component {
+class JsAssessment extends Component {
     constructor(props) {
         super(props);
 
@@ -35,7 +35,6 @@ class Js1 extends Component {
 								<section>
                   
 										<button><a href={this.props.prev}>Prev - {this.props.prevTitle}</a></button>
-										<button><a href={this.props.next}>Next - {this.props.nextTitle}</a></button>
 									<ReactMarkdown children={markdown}  remarkPlugins={[remarkGfm]} components={{
       code({node, inline, className, children, ...props}) {
         const match = /language-(\w+)/.exec(className || '')
@@ -58,9 +57,6 @@ class Js1 extends Component {
 
 <br></br>
 										<button><a href={this.props.prev}>Prev - {this.props.prevTitle}</a></button>
-										<div style={{ display: 'flex', justifyContent: 'flex-end' }}>
-                      <button><a href={this.props.next}>Next - {this.props.nextTitle}</a></button>
-                    </div>
 								</section>
 
 						</div>
@@ -68,18 +64,16 @@ class Js1 extends Component {
             </div>);
         }
 }
-Js1.propTypes = {
+JsAssessment.propTypes = {
   markdown: PropTypes.string.isRequired,
   prev: PropTypes.string.isRequired,
-  next: PropTypes.string.isRequired,
   prevTitle: PropTypes.string.isRequired,
-  nextTitle: PropTypes.string.isRequired,
 }
 
-Js1.defaultProps = {
+JsAssessment.defaultProps = {
   markdown: `# My Markdown File
 
   This is an example markdown file.`,
 }
 
-export default Js1;
+export default JsAssessment;

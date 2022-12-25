@@ -1932,6 +1932,19 @@ button,
   font-size: 0.9em;
   position: relative;
   width: 26em; }
+  #sidebar button {
+    -moz-transition: color 0.2s ease-in-out, border-bottom-color 0.2s ease-in-out;
+    -webkit-transition: color 0.2s ease-in-out, border-bottom-color 0.2s ease-in-out;
+    -ms-transition: color 0.2s ease-in-out, border-bottom-color 0.2s ease-in-out;
+    transition: color 0.2s ease-in-out, border-bottom-color 0.2s ease-in-out;
+    border-bottom: dotted 1px;
+    color: #f56a6a;
+    text-decoration: none; }
+    button:hover {
+      border-bottom-color: #f56a6a;
+      color: #f56a6a !important; }
+      button:hover strong {
+        color: inherit; }
   #sidebar h2 {
     font-size: 1.38889em; }
   #sidebar > .inner {

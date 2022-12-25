@@ -107,7 +107,7 @@ class Sidebar extends Component {
         
         return (
             <div id="sidebar" className={this.state.isActive}>
-            <a href="#" class="toggle" onClick={this.handleClick}>Toggle</a>
+            <a href class="toggle" onClick={this.handleClick}>Toggle</a>
     <div className="inner">
 
         {/* <!-- Menu --> */}
