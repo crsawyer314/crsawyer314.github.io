@@ -59,29 +59,29 @@ class Hobbies extends Component {
 
 								<section>
 								{/* <span className="image fit"><img src={pyro1} alt="" /></span> */}
-								<div class="row gtr-50 gtr-uniform">
-								<div class="col-4"><span class="image fit"><img src={pyro2} alt="" /></span></div>
-								<div class="col-4"><span class="image fit"><img src={pyro3} alt="" /></span></div>
-								<div class="col-4"><span class="image fit"><img src={pyro4} alt="" /></span></div>
-								<div class="col-4"><span class="image fit"><img src={pyro5} alt="" /></span></div>
-								<div class="col-4"><span class="image fit"><img src={pyro6} alt="" /></span></div>
-								<div class="col-4"><span class="image fit"><img src={pyro7} alt="" /></span></div>
-								<div class="col-4"><span class="image fit"><img src={pyro8} alt="" /></span></div>
-								<div class="col-4"><span class="image fit"><img src={pyro10} alt="" /></span></div>
-								<div class="col-4"><span class="image fit"><img src={pyro11} alt="" /></span></div>
-								<div class="col-4"><span class="image fit"><img src={pyro12} alt="" /></span></div>
-								<div class="col-4"><span class="image fit"><img src={pyro13} alt="" /></span></div>
-								<div class="col-4"><span class="image fit"><img src={pyro14} alt="" /></span></div>
-								{/* <div class="col-4"><span class="image fit"><img src={pyro15} alt="" /></span></div> */}
-								<div class="col-4"><span class="image fit"><img src={pyro1} alt="" /></span></div>
-								<div class="col-4"><span class="image fit"><img src={pyro9} alt="" /></span></div>
-								<div class="col-4"><span class="image fit"><img src={quilt1} alt="" /></span></div>
-								<div class="col-4"><span class="image fit"><img src={quilt2} alt="" /></span></div>
-								<div class="col-4"><span class="image fit"><img src={quilt3} alt="" /></span></div>
-								<div class="col-4"><span class="image fit"><img src={quilt4} alt="" /></span></div>
-								<div class="col-4"><span class="image fit"><img src={quilt5} alt="" /></span></div>
-								<div class="col-4"><span class="image fit"><img src={quilt6} alt="" /></span></div>
-								<div class="col-4"><span class="image fit"><img src={quilt7} alt="" /></span></div>
+								<div className="row gtr-50 gtr-uniform">
+								<div className="col-4"><span className="image fit"><img src={pyro2} alt="" /></span></div>
+								<div className="col-4"><span className="image fit"><img src={pyro3} alt="" /></span></div>
+								<div className="col-4"><span className="image fit"><img src={pyro4} alt="" /></span></div>
+								<div className="col-4"><span className="image fit"><img src={pyro5} alt="" /></span></div>
+								<div className="col-4"><span className="image fit"><img src={pyro6} alt="" /></span></div>
+								<div className="col-4"><span className="image fit"><img src={pyro7} alt="" /></span></div>
+								<div className="col-4"><span className="image fit"><img src={pyro8} alt="" /></span></div>
+								<div className="col-4"><span className="image fit"><img src={pyro10} alt="" /></span></div>
+								<div className="col-4"><span className="image fit"><img src={pyro11} alt="" /></span></div>
+								<div className="col-4"><span className="image fit"><img src={pyro12} alt="" /></span></div>
+								<div className="col-4"><span className="image fit"><img src={pyro13} alt="" /></span></div>
+								<div className="col-4"><span className="image fit"><img src={pyro14} alt="" /></span></div>
+								{/* <div className="col-4"><span className="image fit"><img src={pyro15} alt="" /></span></div> */}
+								<div className="col-4"><span className="image fit"><img src={pyro1} alt="" /></span></div>
+								<div className="col-4"><span className="image fit"><img src={pyro9} alt="" /></span></div>
+								<div className="col-4"><span className="image fit"><img src={quilt1} alt="" /></span></div>
+								<div className="col-4"><span className="image fit"><img src={quilt2} alt="" /></span></div>
+								<div className="col-4"><span className="image fit"><img src={quilt3} alt="" /></span></div>
+								<div className="col-4"><span className="image fit"><img src={quilt4} alt="" /></span></div>
+								<div className="col-4"><span className="image fit"><img src={quilt5} alt="" /></span></div>
+								<div className="col-4"><span className="image fit"><img src={quilt6} alt="" /></span></div>
+								<div className="col-4"><span className="image fit"><img src={quilt7} alt="" /></span></div>
 								</div>
 								</section>
 								

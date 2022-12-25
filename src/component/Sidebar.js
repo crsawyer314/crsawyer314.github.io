@@ -94,10 +94,24 @@ class Sidebar extends Component {
     constructor(props) {
       super(props);
   
-      this.state = {
-        isActive: 'active'
-      }
+      this.state = {}
       this.handleClick = this.handleClick.bind(this);
+    }    
+    
+    getWindowWidth() {
+        return Math.max(
+          document.documentElement.clientWidth,
+          window.innerWidth || 0
+        );
+      }
+
+    UNSAFE_componentWillMount(){
+        let width = this.getWindowWidth();
+        console.log(width)
+        this.setState({
+            isActive: ((width < 736) ?'inactive':'active')
+          });
+        
     }
 
     handleClick(){
@@ -107,7 +121,7 @@ class Sidebar extends Component {
         
         return (
             <div id="sidebar" className={this.state.isActive}>
-            <a href class="toggle" onClick={this.handleClick}>Toggle</a>
+            <a href className="toggle" onClick={this.handleClick}>Toggle</a>
     <div className="inner">
 
         {/* <!-- Menu --> */}
