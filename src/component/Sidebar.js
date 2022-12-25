@@ -107,7 +107,6 @@ class Sidebar extends Component {
 
     UNSAFE_componentWillMount(){
         let width = this.getWindowWidth();
-        console.log(width)
         this.setState({
             isActive: ((width < 736) ?'inactive':'active')
           });
