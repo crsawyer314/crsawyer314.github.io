@@ -91,12 +91,20 @@ class Picker extends Component {
       }
 
     render() {
-        return (
-            <div>
-      <button onClick={this.handleClick}>Select random item</button>
-      <h1>Your Dinner: {this.state.chosenDinner}</h1>
-    </div>
-        )
+      const { dinners, chosenDinner } = this.state;
+      const dinnerInfo = dinners[chosenDinner] || [];
+
+      return (
+        <div>
+          <button onClick={this.handleClick}>Select random item</button>
+          <h1>Your Dinner: {chosenDinner}</h1>
+          <ul>
+            {dinnerInfo.map((item, index) => (
+              <li key={index}>{item}</li>
+            ))}
+          </ul>
+        </div>
+      );
     }
 }
 Picker.propTypes = {
