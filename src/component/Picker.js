@@ -69,7 +69,7 @@ class Picker extends Component {
             "pizza": ["bread", "italian"],
             "chicken pot pie": ["chicken"],
             "shepherd's pie": ["beef"],
-            "pastel de choclo":["other", "chilean", "],
+            "pastel de choclo":["other", "chilean", "chicken", "beef", "corn"],
             "chicken & pan sauce": ["chicken"],
             "corned beef": ["soup", "irish", "beef", "cabbage", "carrots", "potatoes"],
             "ethiopian cabbage": ["cabbage"],
